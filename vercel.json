@@ -1,0 +1,12 @@
+{
+
+    "version":2,
+    "name":"backendmp2",
+    "builds": [
+      { "src": "index.js", "use": "@vercel/static-build" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/index.html" }
+    ]
+  }
+  
